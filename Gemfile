@@ -1,9 +1,7 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'rake'
-#gem 'jekyll', :git => 'https://github.com/mojombo/jekyll.git'
-gem 'jekyll'
-gem 'rdiscount'
-gem 'pygments.rb'
-gem 'RedCloth'
-gem 'liquid'
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-feed"
+  gem "jekyll"
+end

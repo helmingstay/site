@@ -1,43 +1,24 @@
-## 5 steps to get started blogging on GitHub with [Prose.io](http://prose.io/)
+#Clean Blog by Start Bootstrap - Jekyll Version
 
-### Step.1
-Fork this repository.
+The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-### Step.2
-From **Admin** > **Options** > **Settings**, rename the repository to 
-`USERNAME.github.com` for your [GitHub pages](http://pages.github.com/).
+###[View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
 
-After ten minutes, you can find a sample page at `http://USERNAME.github.com`
-(like [this](http://tokkono.github.com/)).
+## Before You Begin
 
-### Step.3
-Login to [Prose.io](http://prose.io/). 
-Make sure to authorize Prose to access your repositories.
+In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
 
-### Step.4
-Write your article. Access to the repository `USERNAME.github.com` 
-and go to `_post` directory, then `+ NEW FILE` to create new article.
- 
-Make sure to change `Metadata` as follows.
+It should look like this:
+`baseurl: ""`
 
-	layout: post
-	title: my first article
-	published: true
+## What's Included
 
-### Step.5
-Publish your article. Save and Commit. Then you can see your article at 
-`http://USERNAME.github.com/`.
+A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
 
-## References
-* [Blogging with Jekyll Tutorial | Jekyll-Bootstrap](http://jekyllbootstrap.com/)  
-	You can find an awesome tutorial about blogging with jekyll.
-* [Home - mojombo/jekyll Wiki](https://github.com/mojombo/jekyll/wiki)
-* [Home - Shopify/liquid Wiki](https://github.com/Shopify/liquid/wiki)
+A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to apply the MIT license, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
 
-## Want to customize ?
-Sure, first and foremost, you should edit `_config.yml` file.
-check the [wiki](https://github.com/tokkonopapa/jekyll-experiment/wiki) out !
+You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
 
-## License
-Licensed under the [MIT License][mit].
-[MIT]: http://www.opensource.org/licenses/mit-license.php
+## Support
+
+Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
